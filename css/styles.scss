@@ -1,0 +1,115 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+@charset "utf-8";
+
+// variables override
+
+$brand-color-0: rgb(  0,  85, 124);
+$brand-color-1: rgb( 24, 109, 148);
+$brand-color-2: rgb( 52, 136, 173);
+$brand-color-3: rgb(129, 193, 220);
+$brand-color-4: rgb(187, 229, 243);
+$brand-color-5: rgb(238, 246, 254);
+
+$code-color: $brand-color-2;
+
+$enable-rounded: true;
+
+$font-family-sans-serif: 'Source Sans Pro', sans-serif;
+$font-family-monospace: 'Source Code Pro', monospace;
+
+$headings-font-weight: 300;
+
+$brand-dark: $brand-color-1;
+$brand-light: $brand-color-4;
+$brand-primary: $brand-color-2;
+
+$jumbotron-bg: transparent;
+$jumbotron-padding: 0rem;
+
+$link-color: $brand-color-1;
+$link-hover-color: $brand-color-3;
+$link-hover-decoration: none;
+
+// Import customized bootstrap from `sass_dir` (defaults to `_sass`)
+@import
+  "bootstrap-custom"
+;
+
+p.header-about {
+  margin-right: -1rem;
+}
+
+h1 {
+  padding-top: 2rem;
+}
+
+.navbar {
+
+  padding: 0;
+  background-color: $body-bg;
+  opacity: 0.92;
+
+  img {
+    height: 1.35rem;
+    width: 1.35rem;
+  }
+
+  .dropdown-menu {
+    border: none;
+    margin-right: .9375rem;
+  }
+
+  .dropdown-item {
+    color: $navbar-light-color;
+
+    @include hover-focus {
+      color: $navbar-light-hover-color;
+      background: none;
+    }
+  }
+  .dropdown-item.active {
+    color: $navbar-light-active-color;
+    background: none;
+  }
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.row {
+  padding: 0rem 1rem;
+  margin-bottom: 2rem;
+}
+
+#presentations > .row {
+  padding: 0rem 0rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 75em) {
+.container {
+    max-width: 60rem;
+}}
+
+section {
+  padding: 2rem 1rem 0;
+}
+
+section#header {
+  padding: 4rem 1rem 0;
+}
+
+@-webkit-keyframes sk-scaleout {
+    0% { opacity: 1.00; }
+   50% { opacity: 0.66; }
+  100% { opacity: 1.00; }
+}
+
+@keyframes sk-scaleout {
+    0% { opacity: 1.00; }
+   50% { opacity: 0.66; }
+  100% { opacity: 1.00; }
+}

@@ -1,0 +1,33 @@
+{
+  "heading" : "発表資料",
+
+  "presentations" : [
+
+    { "key"       : "internship2016",
+      "date"      : "2016-08",
+      "data-id"   : "94e0eb0545e34242a24d5d2e189bc319",
+      "event" : {
+	  "name" : "講義資料 at Cookpad Tech Internship 2016",
+	  "href" : "https://recruit.cookpad.com/internship/summer2016-engineer/",
+      }
+    },
+
+    { "key"     : "webdbforum2015",
+      "date"    : "2015-11",
+      "data-id" : "9e81a50fe63244ed817533e43c204e56",
+      "event" : {
+	  "name" : "招待講演 at WebDB Forum 2015",
+	  "href" : "http://db-event.jpn.org/webdbf2015/",
+      }
+    },
+
+    { "key"     : "soc2015",
+      "date"    : "2015-06",
+      "data-id" : "8901b96121294d92a13aa95636dcab5e",
+      "event" : {
+	  "name" : "招待講演 at SoC 2015",
+	  "href" : "http://dbsj.org/soc2015/",
+      }
+    }
+  ]
+}

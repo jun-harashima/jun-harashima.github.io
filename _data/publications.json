@@ -1,0 +1,112 @@
+{
+  "heading" : "発表文献",
+
+  "list" : [
+
+    { "key"       : "Hashimoto2016",
+      "date"      : "2016-07",
+      "title"     : "Design in Everyday Cooking: Challenges for Assisting with Menu Planning and Food Preparation",
+      "authors"   : [ "Atsushi Hashimoto", "Jun Harashima", "Yoko Yamakata", "Shinsuke Mori" ],
+      "published" : "Proceedings of the 8th International Conference on Cross-Cultural Design (CCD 2016)",
+    },
+
+    { "key"       : "Harashima2016b",
+      "date"      : "2016-05",
+      "bibtex"    : "harashima2016b.bib",
+      "title"     : "Japanese Word-Color Associations with and without Contexts",
+      "authors"   : [ "Jun Harashima" ],
+      "published" : "Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC 2016)",
+      "downloads" : [
+        { "href"  : "paper/harashima2016b.pdf",
+          "desc"  : "Paper (PDF, 197K)",
+        }
+      ]
+    },
+
+    { "key"       : "Harashima2016a",
+      "date"      : "2016-05",
+      "bibtex"    : "harashima2016a.bib",
+      "title"     : "A Large-Scale Recipe and Meal Data Collection as Infrastructure for Food Research",
+      "authors"   : [ "Jun Harashima", "Michiaki Ariga", "Kenta Murata", "Masayuki Ioki" ],
+      "published" : "Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC 2016)",
+      "downloads" : [
+        { "href"  : "paper/harashima2016a.pdf",
+          "desc"  : "Paper (PDF, 515K)"
+        }
+      ]
+    },
+
+    { "key"       : "Harashima2014",
+      "date"      : "2014-09",
+      "bibtex"    : "harashima2014.bib",
+      "title"     : "Relevance Feedback using Surface and Latent Information in Texts",
+      "authors"   : [ "Jun Harashima", "Sadao Kurohashi" ],
+      "published" : "Journal of Natural Language Processing, Vol.21, No.4 (2014)",
+      "downloads" : [
+        { "href"  : "paper/harashima2014.pdf",
+          "desc"  : "Paper (PDF, 484K)"
+        }
+      ]
+    },
+
+    { "key"       : "Harashima2012b",
+      "date"      : "2012-12",
+      "bibtex"    : "harashima2012b.bib",
+      "title"     : "Flexible Japanese Sentence Compression by Relaxing Unit Constraints",
+      "authors"   : [ "Jun Harashima", "Sadao Kurohashi" ],
+      "published" : "Proceedings of the 24th International Conference on Computer Linguistics (COLING 2012)",
+      "downloads" : [
+        { "href"  : "paper/harashima2012b.pdf",
+          "desc"  : "Paper (PDF, 370K)"
+        }
+      ]
+    },
+
+    { "key"       : "Harashima2012a",
+      "date"      : "2012-09",
+      "bibtex"    : "harashima2012a.bib",
+      "title"     : "テキストの表層情報と潜在情報を利用した適合性フィードバック",
+      "authors"   : [ "原島 純", "黒橋禎夫" ],
+      "published" : "自然言語処理, Vol.19, No.3 (2012)",
+      "lead_note" : "Best Annual Paper",
+      "downloads" : [
+        { "href"  : "paper/harashima2012a.pdf",
+          "desc"  : "Paper (PDF, 651K)"
+        }
+      ]
+    },
+
+    { "key"       : "Harashima2011",
+      "date"      : "2011-11",
+      "bibtex"    : "harashima2011.bib",
+      "title"     : "Relevance Feedback using Latent Information",
+      "authors"   : [ "Jun Harashima", "Sadao Kurohashi" ],
+      "published" : "Proceedings of the 5th International Joint Conference on Natural Language Processing (IJCNLP 2011)",
+      "downloads" : [
+        { "href"  : "paper/harashima2011.pdf",
+          "desc"  : "Paper (PDF, 990K)"
+        }
+      ]
+    },
+
+    { "key"       : "Harashima2010",
+      "date"      : "2010-08",
+      "bibtex"    : "harashima2010.bib",
+      "title"     : "Summarizing Search Results using PLSI",
+      "authors"   : [ "Jun Harashima", "Sadao Kurohashi" ],
+      "published" : "Proceedings of the 2nd Workshop on NLP Challenges in the Information Explosion Era (NLPIX 2010)",
+      "downloads" : [
+        { "href"  : "paper/harashima2010.pdf",
+          "desc"  : "Paper (PDF, 766K)"
+        }
+      ]
+    },
+
+    { "key"       : "Shibata2008",
+      "date"      : "2008-1",
+      "title"     : "SYNGRAPH: A Flexible Matching Method based on Synonymous Expression Extraction from an Ordinary Dictionary and a Web Corpus",
+      "authors"   : [ "Tomohide Shibata", "Michitaka Odani", "Jun Harashima", "Takashi Oonishi", "Sadao Kurohashi" ],
+      "published" : "Proceedings of the 3th International Joint Conference on Natural Language Processing (IJCNLP 2008)",
+    }
+  ]
+}

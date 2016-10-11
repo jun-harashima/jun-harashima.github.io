@@ -1,0 +1,33 @@
+timezone: JPN
+
+baseurl: ''
+# url: 'http://jun-harashima.net'
+
+title: '原島 純'
+author: '原島 純'
+
+google_font_sans_serif: 'Source+Sans+Pro:300'
+
+default_thubmnail_img_dimensions: 'width="768" height="768"'
+
+safe: true
+encoding: utf-8
+
+markdown: kramdown
+
+exclude: [
+  'Gemfile',
+  'Gemfile.lock',
+  'package.json',
+  'README.md',
+  'vendor']
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      lang: ja
+      description: '原島純。2013 年 3 月、京都大学黒橋研究室にて情報学の博士を取得。同年 4 月、クックパッド株式会社に入社。現在は研究開発部門の機械学習グループに所属。主に自然言語処理（レシピの解析や検索、分類、推薦、翻訳）や画像認識（料理写真の分類やクロッピング）に関する技術の研究開発に従事。'
+
+sass:
+  style: compressed

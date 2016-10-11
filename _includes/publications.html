@@ -1,0 +1,45 @@
+<section id="publications" class="container">
+  <div class="row text-xs-center">
+    <h1>{{ site.data.publications.heading }}</h1>
+  </div>
+
+  {% assign list = site.data.publications.list | sort:"date" %}
+  {% for publication in list reversed %}
+  <div class="row{% if p != publications.first %} not-last{% endif %}">
+    <div>
+      <h4>{{ publication.title }}</h4>
+      <p>
+	{% assign authors = publication.authors | sort:"date" %}
+	<span class="text-muted">{% for author in authors %}{% if authors.size >= 2 and author == authors.last %}and {% endif %}{{ author }}{% if authors.size >= 2 and author != authors.last %},{% endif %} {% endfor %}</span><br>
+	<span class="text-muted">{{ publication.published }}{% if publication.lead_note %}, <b>{{ publication.lead_note }}{% endif %}</b></span><br>
+	<span class="text-muted">
+	{% if publication.bibtex %}<a data-toggle="modal" href="#bibtex-{{ publication.key }}">BibTeX</a>{% if publication.downloads %}, {% endif %}{% endif %}
+	{% if publication.downloads %}{% for download in publication.downloads %}<a href="{{ download.href }}">{{ download.desc }}</a>{% if download != publication.downloads.last %}, {% endif %}{% endfor %}{% endif %}
+	</span>
+      </p>
+      {% if publication.bibtex %}
+      <div class="modal fade" id="bibtex-{{ publication.key }}" tabindex="-1" role="dialog" aria-labelledby="bibtex-{{ publication.key }}" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">BibTeX : {{ publication.key }}</h4>
+            </div>
+            <div class="modal-body">
+              <pre id="bibtex-data-{{ publication.key }}">{% include /bib/{{ publication.bibtex }} %}</pre>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+              <button type="button" data-clipboard-target="#bibtex-data-{{ publication.key }}" class="btn btn-primary btn-sm btn-clipboard">Copy</button>
+            </div>
+          </div>
+	</div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="row text-xs-center">
+    <a href="https://scholar.google.co.jp/citations?user=AT6aBxwAAAAJ&hl=ja&oi=ao">その他の発表文献（Google Scholar）</a>
+  </div>
+</section>

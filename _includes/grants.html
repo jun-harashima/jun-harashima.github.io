@@ -1,0 +1,20 @@
+<section id="grants" class="container">
+  <div class="row text-xs-center">
+    <h1>{{ site.data.grants.heading }}</h1>
+  </div>
+
+  {% assign list = site.data.grants.list | sort:"started_at" %}
+  {% for grant in list reversed%}
+  <div class="col-md-3 text-md-right">
+    {{ grant.started_at : "%x" }} - {{ grant.ended_at : "%x" }}
+  </div>
+  <div class="col-md-9">
+    <p>
+      {{ grant.title }}<br>
+      {% assign applicants = grant.applicants %}
+      <span class="text-muted">{% for applicant in applicants %}{% if applicants.size >= 2 and applicant == applicants.last %}and {% endif %}{{ applicant }}{% if applicants.size >= 2 and applicant != applicants.last %},{% endif %} {% endfor %}</span></br>
+      <span class="text-muted">{{ grant.fund }}, {{ grant.role}}, {{ grant.amount }}</span>
+    </p>
+  </div>
+  {% endfor %}
+</section>

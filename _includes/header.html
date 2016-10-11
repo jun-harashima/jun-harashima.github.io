@@ -1,0 +1,9 @@
+<section id="header" class="container">
+  {% assign header = site.data.header %}
+  <div class="row text-xs-center">
+    <img class="img-fluid img-rounded center-block" src="/img/{{ header.picture }}" alt="portrait">
+    <h1>{{ header.heading }}</h1>
+    <p class="lead">{{ header.position }}</p>
+    <p class="header-about text-xs-left">{{ header.about }}</p>
+  </div>
+</section>
