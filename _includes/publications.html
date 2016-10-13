@@ -10,7 +10,7 @@
       <h4>{{ publication.title }}</h4>
       <p>
 	{% assign authors = publication.authors | sort:"date" %}
-	<span class="text-muted">{% for author in authors %}{% if authors.size >= 2 and author == authors.last %}and {% endif %}{{ author }}{% if authors.size >= 2 and author != authors.last %},{% endif %} {% endfor %}</span><br>
+	<span class="text-muted">{% for author in authors %}{% if authors.size >= 2 and author == authors.last %}and {% endif %}{{ author }}{% if authors.size > 2 and author != authors.last %},{% endif %} {% endfor %}</span><br>
 	<span class="text-muted">{{ publication.published }}{% if publication.lead_note %}, <b>{{ publication.lead_note }}{% endif %}</b></span><br>
 	<span class="text-muted">
 	{% if publication.bibtex %}<a data-toggle="modal" href="#bibtex-{{ publication.key }}">BibTeX</a>{% if publication.downloads %}, {% endif %}{% endif %}
