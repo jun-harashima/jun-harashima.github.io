@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "Sato2016",
+      "date"      : "2016-12",
+      "title"     : "Japanese-English Machine Translation of Recipe Texts",
+      "authors"   : [ "Takayuki Sato", "Jun Harashima", "Mamoru Komachi" ],
+      "published" : "Proceedings of the 3rd Workshop on Asian Translation (WAT 2016)",
+    },
+
     { "key"       : "Hashimoto2016",
       "date"      : "2016-07",
       "title"     : "Design in Everyday Cooking: Challenges for Assisting with Menu Planning and Food Preparation",
