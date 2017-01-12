@@ -5,7 +5,7 @@
 
   {% assign list = site.data.grants.list | sort:"started_at" %}
   {% for grant in list reversed%}
-  <div class="col-md-3 text-md-right">
+  <div class="col-md-3 text-md">
     {{ grant.started_at : "%x" }} - {{ grant.ended_at : "%x" }}
   </div>
   <div class="col-md-9">
