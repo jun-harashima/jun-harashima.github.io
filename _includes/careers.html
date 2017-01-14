@@ -6,7 +6,7 @@
   {% assign careers = site.data.careers.careers | sort:"started_at" %}
   {% for career in careers reversed%}
   <div class="col-md-3 text-md">
-    {{ career.started_at : "%x" }} - {{ career.ended_at : "%x" }}
+    {{ career.started_at : "%x" }} 〜 {{ career.ended_at : "%x" }}
   </div>
   <div class="col-md-9">
     <p>
