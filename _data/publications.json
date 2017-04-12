@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "Harashima2017",
+      "date"      : "2017-08",
+      "title"     : "Cookpad Image Dataset: An Image Collection as Infrastructure for Food Research",
+      "authors"   : [ "Jun Harashima", "Yuichiro Someya", "Yohei Kikuta" ],
+      "published" : "Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2017)",
+    },
+
     { "key"       : "Sato2016",
       "date"      : "2016-12",
       "title"     : "Japanese-English Machine Translation of Recipe Texts",
