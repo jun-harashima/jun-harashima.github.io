@@ -4,14 +4,14 @@
   "list" : [
 
     { "key"       : "Hashimoto2017",
-      "date"      : "2017-08",
+      "date"      : "2017-08-20",
       "title"     : "Learning Food Appearance by a Supervision with Recipe Text",
       "authors"   : [ "Atsushi Hashimoto", "Takumi Fujino", "Jun Harashima", "Masaaki Iiyama", "Michihiko Minoh" ],
       "published" : "Proceedings of the 9th Workshop on Multimedia for Cooking and Eating Activities (CEA 2017)",
     },
 
     { "key"       : "Harashima2017",
-      "date"      : "2017-08",
+      "date"      : "2017-08-09",
       "title"     : "Cookpad Image Dataset: An Image Collection as Infrastructure for Food Research",
       "authors"   : [ "Jun Harashima", "Yuichiro Someya", "Yohei Kikuta" ],
       "published" : "Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2017)",
