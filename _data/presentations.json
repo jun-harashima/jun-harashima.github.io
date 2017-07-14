@@ -3,6 +3,24 @@
 
   "presentations" : [
 
+    { "key"       : "kantomt2017",
+      "date"      : "201707",
+      "data-id"   : "2c62d4e5b7084db594d48cb3c3c754e1",
+      "event" : {
+	  "name" : "発表資料 at 第一回関東 MT 勉強会",
+	  "href" : "https://sites.google.com/site/machinetranslationjp/kanto",
+      }
+    },
+
+    { "key"       : "techkitchen2017",
+      "date"      : "2017-02",
+      "data-id"   : "dcee209771bf4598ac581c0002f5d299",
+      "event" : {
+	  "name" : "発表資料 at Cookpad Tech Kitchen #5",
+	  "href" : "https://cookpad.connpass.com/event/49324/",
+      }
+    },
+
     { "key"       : "internship2016",
       "date"      : "2016-08",
       "data-id"   : "94e0eb0545e34242a24d5d2e189bc319",
