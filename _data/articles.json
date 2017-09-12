@@ -1,0 +1,34 @@
+{
+  "heading" : "掲載記事",
+
+  "list" : [
+
+    { "key"       : "Storia2017",
+      "date"      : "2017-09-08",
+      "title"     : "クックパッド AI VS 料理好き弁護士対決 ～弁護士による AI 活用企業訪問記第１回～",
+      "published" : "STORIA BLOG",
+      "href"      : "http://storialaw.jp/blog/3174",
+    },
+
+    { "key"       : "Geekroid2017",
+      "date"      : "2017-04-04",
+      "title"     : "Cookpad Tech Kitchen #5 〜クックパッドにおける最近の機械学習について〜",
+      "published" : "Geekroid",
+      "href"      : "https://mynavi-agent.jp/it/geekroid/2017/04/cookpad-tech-kitchen-5.html",
+    },
+
+    { "key"       : "Engineerhub2017",
+      "date"      : "2017-03-24",
+      "title"     : "機械学習の取り組みを次々と実装！ クックパッドの\"即戦力\"新卒エンジニアが活躍できる背景とは",
+      "published" : "エンジニア Hub",
+      "href"      : "https://employment.en-japan.com/engineerhub/entry/2017/03/24/110000",
+    },
+
+    { "key"       : "Eiicon2017",
+      "date"      : "2017-03-03",
+      "title"     : "【特集インタビュー】クックパッドの画像データを\"料理\"せよ --「AI チャレンジコンテスト」が目指すものとは？",
+      "published" : "eiicon lab",
+      "href"      : "https://eiicon.net/articles/133",
+    }
+  ]
+}
