@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "CNET2018",
+      "date"      : "2018-03-29",
+      "title"     : "料理写真の自動整理や、音声によるレシピ提案 --「クックパッド」研究開発部の挑戦",
+      "published" : "CNET Japan",
+      "href"      : "https://japan.cnet.com/article/35116806/",
+    },
+
     { "key"       : "Storia2017",
       "date"      : "2017-09-08",
       "title"     : "クックパッド AI VS 料理好き弁護士対決 ～弁護士による AI 活用企業訪問記第１回～",
