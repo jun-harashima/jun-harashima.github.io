@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "Harashima2018",
+      "date"      : "2018-07-15",
+      "title"     : "Two-Step Validation in Character-based Ingredient Normalization",
+      "authors"   : [ "Jun Harashima", "Yoshiaki Yamada" ],
+      "published" : "Proceedings of the 10th Workshop on Multimedia for Cooking and Eating Activities (CEA 2018)",
+    },
+
     { "key"       : "Hashimoto2017",
       "date"      : "2017-08-20",
       "title"     : "Learning Food Appearance by a Supervision with Recipe Text",
