@@ -1,0 +1,41 @@
+{
+  "heading" : "執筆記事",
+
+  "list" : [
+
+    { "key"       : "my-bookmark",
+      "date"      : "2018-01-05",
+      "title"     : "料理情報処理 (Food Information Processing)",
+      "published" : "私のブックマーク",
+      "href"      : "https://www.ai-gakkai.or.jp/my-bookmark_vol33-no1/",
+    },
+
+    { "key"       : "Techlife2017",
+      "date"      : "2017-10-30",
+      "title"     : "Encoder-Decoder でレシピの材料名を正規化する",
+      "published" : "クックパッド開発者ブログ",
+      "href"      : "http://techlife.cookpad.com/entry/2017/10/30/080102",
+    },
+
+    { "key"       : "Techlife2015b",
+      "date"      : "2015-09-30",
+      "title"     : "機械学習によるレシピの自動分類、その裏側",
+      "published" : "クックパッド開発者ブログ",
+      "href"      : "http://techlife.cookpad.com/entry/2015/09/30/170015",
+    },
+
+    { "key"       : "Techlife2015a",
+      "date"      : "2015-02-24",
+      "title"     : "クックパッドのデータを研究者に公開します",
+      "published" : "クックパッド開発者ブログ",
+      "href"      : "http://techlife.cookpad.com/entry/2015/02/24/161915",
+    },
+
+    { "key"       : "Techlife2014",
+      "date"      : "2014-10-29",
+      "title"     : "多腕バンディットによる表示コンテンツの最適化",
+      "published" : "クックパッド開発者ブログ",
+      "href"      : "http://techlife.cookpad.com/entry/2014/10/29/102036",
+    },
+  ]
+}
