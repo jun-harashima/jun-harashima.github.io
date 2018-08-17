@@ -1,0 +1,15 @@
+<section id="entries" class="container">
+  <div class="row text-xs-center">
+    <h2>{{ site.data.entries.heading }}</h1>
+  </div>
+
+  {% assign list = site.data.entries.list | sort:"date" %}
+  {% for entry in list reversed %}
+  <div class="row{% if entry != entries.first %} not-last{% endif %}">
+    <div>
+      <h4>{{ entry.title }}</h4>
+      <span class="text-muted"><a href="{{ entry.href }}"> URL ({{ entry.published }})</a></span>
+    </div>
+  </div>
+  {% endfor %}
+</section>
