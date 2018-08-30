@@ -2,6 +2,14 @@
   "heading" : "発表資料",
 
   "presentations" : [
+    { "key"       : "internship2018",
+      "date"      : "201808",
+      "data-id"   : "83c96fd0e6704aef8d1b5ded51f8e7d1",
+      "event" : {
+	  "name" : "講義資料 at Cookpad Summer Internship 2018",
+	  "href" : "https://internship.cookpad.com/2018/summer/",
+      }
+    },
 
     { "key"       : "kantomt2017",
       "date"      : "201707",
