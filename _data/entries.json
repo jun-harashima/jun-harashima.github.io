@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "Techlife2018",
+      "date"      : "2018-10-19",
+      "title"     : "R&D ができて 2 年が経ちました",
+      "published" : "クックパッド開発者ブログ",
+      "href"      : "https://techlife.cookpad.com/entry/2018/10/19/080000",
+    },
+
     { "key"       : "my-bookmark",
       "date"      : "2018-01-05",
       "title"     : "料理情報処理 (Food Information Processing)",
