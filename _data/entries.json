@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "JSAI2019",
+      "date"      : "2019-01-07",
+      "title"     : "レシピサービスと情報処理",
+      "published" : "人工知能学会誌",
+      "href"      : "http://www.ai-gakkai.or.jp/vol34_no1/",
+    },
+
     { "key"       : "Techlife2018",
       "date"      : "2018-10-19",
       "title"     : "R&D ができて 2 年が経ちました",
