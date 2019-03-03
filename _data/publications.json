@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "Hiramatsu2019",
+      "date"      : "2019-04-08",
+      "title"     : "Named Entity Recognition by Character-based Word Classification using a Domain Specific Dictionary",
+      "authors"   : [ "Makoto Hiramatsu", "Kei Wakabayashi", "Jun Harashima" ],
+      "published" : "Proceedings of the 20th International Conference on Computational Linguistics and Intelligent Text Processing (CICLing 2019)",
+    },
+
     { "key"       : "Harashima2018",
       "date"      : "2018-07-15",
       "bibtex"    : "harashima2018.bib",
