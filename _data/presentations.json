@@ -2,6 +2,15 @@
   "heading" : "発表資料",
 
   "presentations" : [
+    { "key"       : "uec-aix-seminar",
+      "date"      : "201809",
+      "data-id"   : "673b0f7a39aa44bbbbb8bd641766a4fa",
+      "event" : {
+	  "name" : "招待講演 at 電気通信大学 AIX セミナー",
+	  "href" : "http://aix.uec.ac.jp/2018/09/13/5th-aix-seminar/",
+      }
+    },
+
     { "key"       : "internship2018",
       "date"      : "201808",
       "data-id"   : "83c96fd0e6704aef8d1b5ded51f8e7d1",
@@ -11,12 +20,12 @@
       }
     },
 
-    { "key"       : "kantomt2017",
-      "date"      : "201707",
-      "data-id"   : "2c62d4e5b7084db594d48cb3c3c754e1",
+    { "key"       : "yahoo-tech-seminar",
+      "date"      : "201807",
+      "data-id"   : "16169a11c5934ac39ed5f4b02170bed7",
       "event" : {
-	  "name" : "発表資料 at 第一回関東 MT 勉強会",
-	  "href" : "https://sites.google.com/site/machinetranslationjp/kanto",
+	  "name" : "招待講演 at Yahoo! Japan Tech Seminar",
+	  "href" : "",
       }
     },
 
@@ -24,7 +33,7 @@
       "date"      : "2017-02",
       "data-id"   : "dcee209771bf4598ac581c0002f5d299",
       "event" : {
-	  "name" : "発表資料 at Cookpad Tech Kitchen #5",
+	  "name" : "発表資料 at Cookpad Tech Kitchen",
 	  "href" : "https://cookpad.connpass.com/event/49324/",
       }
     },
@@ -44,15 +53,6 @@
       "event" : {
 	  "name" : "招待講演 at WebDB Forum 2015",
 	  "href" : "http://db-event.jpn.org/webdbf2015/",
-      }
-    },
-
-    { "key"     : "soc2015",
-      "date"    : "2015-06",
-      "data-id" : "8901b96121294d92a13aa95636dcab5e",
-      "event" : {
-	  "name" : "招待講演 at SoC 2015",
-	  "href" : "http://dbsj.org/soc2015/",
       }
     }
   ]
