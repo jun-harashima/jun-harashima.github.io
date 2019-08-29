@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "MLTBP2019",
+      "date"      : "2019-03-28",
+      "title"     : "クックパッド研究開発部門のチームビルディング",
+      "published" : "logmiTech",
+      "href"      : "https://logmi.jp/tech/articles/321763",
+    },
+
     { "key"       : "CNET2018",
       "date"      : "2018-03-29",
       "title"     : "料理写真の自動整理や、音声によるレシピ提案 --「クックパッド」研究開発部の挑戦",
