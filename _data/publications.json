@@ -10,6 +10,13 @@
       "published" : "Proceedings of the 20th International Conference on Computational Linguistics and Intelligent Text Processing (CICLing 2019)",
     },
 
+    { "key"       : "Inuzuka2018",
+      "date"      : "2018-11-01",
+      "title"     : "Step or Not: Discriminator for The Real Instructions in User-generated Recipes",
+      "authors"   : [ "Shintaro Inuzuka", "Takahiko Ito", "Jun Harashima" ],
+      "published" : "Proceedings of the 4th Workshop on Noisy User-generated Text (W-NUT 2018)",
+    },
+
     { "key"       : "Harashima2018",
       "date"      : "2018-07-15",
       "bibtex"    : "harashima2018.bib",
