@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "Ito2019",
+      "date"      : "2019-10-29",
+      "title"     : "Real World Voice Assistant System for Cooking",
+      "authors"   : [ "Takahiko Ito", "Shintaro Inuzuka", "Yoshiaki Yamada", "Jun Harashima" ],
+      "published" : "Proceedings of the 12th International Conference on Natural Language Genration (INLG 2019)",
+    },
+
     { "key"       : "Hiramatsu2019",
       "date"      : "2019-04-08",
       "title"     : "Named Entity Recognition by Character-based Word Classification using a Domain Specific Dictionary",
