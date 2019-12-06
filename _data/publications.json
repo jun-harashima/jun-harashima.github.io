@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "Harashima2020",
+      "date"      : "2020-02-09",
+      "title"     : "Calorie Estimation in a Real-World Recipe Service",
+      "authors"   : [ "Jun Harashima", "Makoto Hiramatsu", "Satoshi Sanjo" ],
+      "published" : "Proceedings of the 32nd Annual Conference on Innovative Applications of Artificial Intelligence (IAAI-20)",
+    },
+
     { "key"       : "Ito2019",
       "date"      : "2019-10-29",
       "title"     : "Real World Voice Assistant System for Cooking",
