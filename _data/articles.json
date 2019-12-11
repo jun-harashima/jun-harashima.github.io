@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "BizCompass2019",
+      "date"      : "2019-12-03",
+      "title"     : "機械学習を駆使して、もっと料理で人を豊かにしたい",
+      "published" : "Biz コンパス",
+      "href"      : "https://www.bizcompass.jp/cio/144.html",
+    },
+
     { "key"       : "MLTBP2019",
       "date"      : "2019-03-28",
       "title"     : "クックパッド研究開発部門のチームビルディング",
