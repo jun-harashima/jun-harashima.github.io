@@ -2,6 +2,15 @@
   "heading" : "発表資料",
 
   "presentations" : [
+    { "key"       : "iaai-20",
+      "date"      : "202002",
+      "data-id"   : "a96ca88013624136a5b2a2122c938d18",
+      "event" : {
+	  "name" : "発表資料 at IAAI-20",
+	  "href" : "https://aaai.org/Conferences/AAAI-20/",
+      }
+    },
+
     { "key"       : "uec-aix-seminar",
       "date"      : "201809",
       "data-id"   : "673b0f7a39aa44bbbbb8bd641766a4fa",
