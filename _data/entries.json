@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "Techlife2020",
+      "date"      : "2020-02-26",
+      "title"     : "「このレシピは何人分？」を機械学習で推定する",
+      "published" : "クックパッド開発者ブログ",
+      "href"      : "https://techlife.cookpad.com/entry/2020/02/26/093000",
+    },
+
     { "key"       : "JSAI2019",
       "date"      : "2019-01-07",
       "title"     : "レシピサービスと情報処理",
