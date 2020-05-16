@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "Nishimura2020",
+      "date"      : "2020-05-11",
+      "title"     : "Visual Grounding Annotation of Recipe Flow Graph",
+      "authors"   : [ "Taichi Nishimura", "Suzushi Tomori", "Hayato Hashimoto", "Atsushi Hashimoto", "Yoko Yamakata", "Jun Harashima", "Yoshitaka Ushiku", "Shinsuke Mori" ],
+      "published" : "Proceedings of the 12th International Conference on Language Resources and Evaluation (LREC 2020)",
+    },
+
     { "key"       : "Harashima2020",
       "date"      : "2020-02-09",
       "title"     : "Calorie Estimation in a Real-World Recipe Service",
