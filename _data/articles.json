@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "JSAI2020",
+      "date"      : "2020-09-01",
+      "title"     : "レシピサービスと AI",
+      "published" : "教養としての AI",
+      "href"      : "https://jsai.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=10819&file_id=22&file_no=1",
+    },
+
     { "key"       : "BizCompass2019",
       "date"      : "2019-12-03",
       "title"     : "機械学習を駆使して、もっと料理で人を豊かにしたい",
