@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "IEICE2020",
+      "date"      : "2020-09-01",
+      "title"     : "レシピを機械可読にする技術とその可能性",
+      "published" : "電子情報通信学会誌",
+      "href"      : "https://app.journal.ieice.org/trial/103_9/k103_9_903/index.html",
+    },
+
     { "key"       : "Techlife2020",
       "date"      : "2020-02-26",
       "title"     : "「このレシピは何人分？」を機械学習で推定する",
