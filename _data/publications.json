@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "Yamaguchi2020",
+      "date"      : "2020-11-19",
+      "title"     : "Non-ingredient Detection in User-generated Recipes using the Sequence Tagging Approach",
+      "authors"   : [ "Yasuhiro Yamaguchi", "Shintaro Inuzuka", "Makoto Hiramatsu", "Jun Harashima" ],
+      "published" : "Proceedings of the 6th Workshop on Noisy User-generated Text (W-NUT 2020)",
+    },
+
     { "key"       : "Nishimura2020",
       "date"      : "2020-05-11",
       "title"     : "Visual Grounding Annotation of Recipe Flow Graph",
