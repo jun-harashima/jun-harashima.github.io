@@ -3,11 +3,17 @@
 
   "list" : [
 
-    { "key"       : "Harashima2020",
+    { "key"       : "Harashima2020b",
       "date"      : "2020-12-12",
+      "bibtex"    : "harashima2020b.bib",
       "title"     : "Cookpad Parsed Corpus: Linguistic Annotations of Japanese Recipes",
       "authors"   : [ "Jun Harashima", "Makoto Hiramatsu" ],
       "published" : "Proceedings of the 14th Linguistic Annotation Workshop (LAW 2020)",
+      "downloads" : [
+        { "href"  : "paper/harashima2020b.pdf",
+          "desc"  : "Paper (PDF, 353K)"
+        }
+      ]
     },
 
     { "key"       : "Yamaguchi2020",
@@ -24,7 +30,7 @@
       "published" : "Proceedings of the 12th International Conference on Language Resources and Evaluation (LREC 2020)",
     },
 
-    { "key"       : "Harashima2020",
+    { "key"       : "Harashima2020a",
       "date"      : "2020-02-09",
       "title"     : "Calorie Estimation in a Real-World Recipe Service",
       "authors"   : [ "Jun Harashima", "Makoto Hiramatsu", "Satoshi Sanjo" ],
