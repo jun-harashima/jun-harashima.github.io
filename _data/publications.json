@@ -35,6 +35,11 @@
       "title"     : "Calorie Estimation in a Real-World Recipe Service",
       "authors"   : [ "Jun Harashima", "Makoto Hiramatsu", "Satoshi Sanjo" ],
       "published" : "Proceedings of the 32nd Annual Conference on Innovative Applications of Artificial Intelligence (IAAI-20)",
+      "downloads" : [
+        { "href"  : "paper/harashima2020a.pdf",
+          "desc"  : "Paper (PDF, 1.7M)"
+        }
+      ]
     },
 
     { "key"       : "Ito2019",
