@@ -2,6 +2,15 @@
   "heading" : "発表資料",
 
   "presentations" : [
+    { "key"       : "wap-tech-talk",
+      "date"      : "202102",
+      "data-id"   : "b91ff927eef746f9a35e08c7639d6a7e",
+      "event" : {
+	  "name" : "発表資料 at WAP Tech Talk #2",
+	  "href" : "https://worksapplications.connpass.com/event/200756/",
+      }
+    },
+
     { "key"       : "iaai-20",
       "date"      : "202002",
       "data-id"   : "a96ca88013624136a5b2a2122c938d18",
@@ -42,7 +51,7 @@
       "date"      : "2017-02",
       "data-id"   : "dcee209771bf4598ac581c0002f5d299",
       "event" : {
-	  "name" : "発表資料 at Cookpad Tech Kitchen",
+	  "name" : "発表資料 at Cookpad Tech Kitchen #5",
 	  "href" : "https://cookpad.connpass.com/event/49324/",
       }
     },
