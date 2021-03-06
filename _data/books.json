@@ -1,0 +1,10 @@
+{
+  "heading" : "著書",
+
+  "list" : [
+    { "date"  : "2021-03-18",
+      "image" : "kitchen_informatics.jpg",
+      "href"  : "https://www.ohmsha.co.jp/book/9784274226564/",
+    }
+  ]
+}
