@@ -1,14 +1,7 @@
 {
-  "heading" : "執筆記事",
+  "heading" : "投稿",
 
   "list" : [
-
-    { "key"       : "IEICE2020",
-      "date"      : "2020-09-01",
-      "title"     : "レシピを機械可読にする技術とその可能性",
-      "published" : "電子情報通信学会誌",
-      "href"      : "https://app.journal.ieice.org/trial/103_9/k103_9_903/index.html",
-    },
 
     { "key"       : "Techlife2020",
       "date"      : "2020-02-26",
@@ -17,25 +10,11 @@
       "href"      : "https://techlife.cookpad.com/entry/2020/02/26/093000",
     },
 
-    { "key"       : "JSAI2019",
-      "date"      : "2019-01-07",
-      "title"     : "レシピサービスと情報処理",
-      "published" : "人工知能学会誌",
-      "href"      : "http://www.ai-gakkai.or.jp/vol34_no1/",
-    },
-
     { "key"       : "Techlife2018",
       "date"      : "2018-10-19",
       "title"     : "R&D ができて 2 年が経ちました",
       "published" : "クックパッド開発者ブログ",
       "href"      : "https://techlife.cookpad.com/entry/2018/10/19/080000",
-    },
-
-    { "key"       : "my-bookmark",
-      "date"      : "2018-01-05",
-      "title"     : "料理情報処理 (Food Information Processing)",
-      "published" : "私のブックマーク",
-      "href"      : "https://www.ai-gakkai.or.jp/my-bookmark_vol33-no1/",
     },
 
     { "key"       : "Techlife2017",

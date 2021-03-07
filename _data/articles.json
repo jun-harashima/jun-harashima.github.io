@@ -1,0 +1,27 @@
+{
+  "heading" : "寄稿",
+
+  "list" : [
+
+    { "key"       : "IEICE2020",
+      "date"      : "2020-09-01",
+      "title"     : "レシピを機械可読にする技術とその可能性",
+      "published" : "電子情報通信学会誌",
+      "href"      : "https://app.journal.ieice.org/trial/103_9/k103_9_903/index.html",
+    },
+
+    { "key"       : "JSAI2019",
+      "date"      : "2019-01-07",
+      "title"     : "レシピサービスと情報処理",
+      "published" : "人工知能学会誌",
+      "href"      : "http://www.ai-gakkai.or.jp/vol34_no1/",
+    },
+
+    { "key"       : "my-bookmark",
+      "date"      : "2018-01-05",
+      "title"     : "料理情報処理 (Food Information Processing)",
+      "published" : "私のブックマーク",
+      "href"      : "https://www.ai-gakkai.or.jp/my-bookmark_vol33-no1/",
+    },
+  ]
+}
