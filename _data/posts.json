@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "Techlife2021",
+      "date"      : "2020-03-08",
+      "title"     : "形態素解析を行うだけのバッチをつくる",
+      "published" : "クックパッド開発者ブログ",
+      "href"      : "https://techlife.cookpad.com/entry/2021/03/08/093000",
+    },
+
     { "key"       : "Techlife2020",
       "date"      : "2020-02-26",
       "title"     : "「このレシピは何人分？」を機械学習で推定する",
