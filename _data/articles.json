@@ -23,5 +23,12 @@
       "published" : "私のブックマーク",
       "href"      : "https://www.ai-gakkai.or.jp/my-bookmark_vol33-no1/",
     },
+
+    { "key"       : "ITE2017",
+      "date"      : "2017-10-30",
+      "title"     : "食に関するビジネスの最先端～レシピデータと先端技術の利活用～",
+      "published" : "映像情報メディア学会誌",
+      "href"      : "https://www.jstage.jst.go.jp/article/itej/71/11/71_764/_article/-char/ja",
+    },
   ]
 }
