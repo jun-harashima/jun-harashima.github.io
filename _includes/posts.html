@@ -1,14 +1,16 @@
 <section id="posts" class="container">
   <div class="row text-xs-center">
-    <h2>{{ site.data.posts.heading }}</h1>
+    <h2>{{ site.data.posts.heading }}</h2>
   </div>
 
-  {% assign list = site.data.posts.list | sort:"date" %}
-  {% for post in list reversed %}
+  {% assign list = site.data.posts.list | sort:"date" %} {% for post in list
+  reversed %}
   <div class="row{% if post != posts.first %} not-last{% endif %}">
     <div>
       <h4>{{ post.title }}</h4>
-      <span class="text-muted"><a href="{{ post.href }}"> URL ({{ post.published }})</a></span>
+      <span class="text-muted"
+        ><a href="{{ post.href }}"> URL ({{ post.published }})</a></span
+      >
     </div>
   </div>
   {% endfor %}

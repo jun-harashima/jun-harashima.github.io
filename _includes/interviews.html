@@ -1,14 +1,18 @@
 <section id="articles" class="container">
   <div class="row text-xs-center">
-    <h2>{{ site.data.interviews.heading }}</h1>
+    <h2>{{ site.data.interviews.heading }}</h2>
   </div>
 
-  {% assign list = site.data.interviews.list | sort:"date" %}
-  {% for interview in list reversed %}
+  {% assign list = site.data.interviews.list | sort:"date" %} {% for interview
+  in list reversed %}
   <div class="row{% if interview != interviews.first %} not-last{% endif %}">
     <div>
       <h4>{{ interview.title }}</h4>
-      <span class="text-muted"><a href="{{ interview.href }}"> URL ({{ interview.published }})</a></span>
+      <span class="text-muted"
+        ><a href="{{ interview.href }}">
+          URL ({{ interview.published }})</a
+        ></span
+      >
     </div>
   </div>
   {% endfor %}

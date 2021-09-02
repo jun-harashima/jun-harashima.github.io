@@ -3,9 +3,6 @@ name: Prettier
 on:
   pull_request:
 
-env:
-  FILE_PATTERN: "_includes/*.html"
-
 jobs:
   lint:
     runs-on: ubuntu-latest
@@ -15,11 +12,11 @@ jobs:
           ref: ${{ github.head_ref }}
       - uses: actions/setup-node@v1
         with:
-          node-version: 12.x
+          node-version: 14.x
       - name: Run Prettier
         run: |
-          yarn install
-          yarn prettier --write ${FILE_PATTERN}
+          npm install --save-dev --save-exact prettier
+          npx prettier --write _includes/*.html
       - uses: stefanzweifel/git-auto-commit-action@v3.0.0
         with:
           commit_message: apply Prettier

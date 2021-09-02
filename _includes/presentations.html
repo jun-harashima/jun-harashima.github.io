@@ -1,20 +1,32 @@
 <section id="presentations" class="container">
   <div class="row text-xs-center">
-    <h2>{{ site.data.presentations.heading }}</h1>
+    <h2>{{ site.data.presentations.heading }}</h2>
   </div>
 
-  {% assign presentations = site.data.presentations.presentations | sort:"date" %}
+  {% assign presentations = site.data.presentations.presentations | sort:"date"
+  %}
   <div class="row">
     {% for p in presentations reversed %}
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-      <script async class="speakerdeck-embed" data-id="{{ p.data-id }}" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-	<h5>{% if p.event.href != '' %}<a href="{{ p.event.href }}">{{ p.event.name }}</a>{% else %}{{ p.event.name }}{% endif %}</h5>
+      <script
+        async
+        class="speakerdeck-embed"
+        data-id="{{ p.data-id }}"
+        data-ratio="1.33333333333333"
+        src="//speakerdeck.com/assets/embed.js"
+      ></script>
+      <h5>
+        {% if p.event.href != '' %}<a href="{{ p.event.href }}"
+          >{{ p.event.name }}</a
+        >{% else %}{{ p.event.name }}{% endif %}
+      </h5>
     </div>
     {% endfor %}
   </div>
 
   <div class="row text-xs-center">
-    <a href="https://speakerdeck.com/junharashima">その他の発表資料（Speaker Deck）</a>
+    <a href="https://speakerdeck.com/junharashima"
+      >その他の発表資料（Speaker Deck）</a
+    >
   </div>
-
 </section>
