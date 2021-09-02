@@ -1,6 +1,6 @@
 <section id="grants" class="container">
   <div class="row text-xs-center">
-    <h2>{{ site.data.grants.heading }}</h1>
+    <h2>{{ site.data.grants.heading }}</h2>
   </div>
 
   {% assign list = site.data.grants.list | sort:"started_at" %}
@@ -12,7 +12,7 @@
     <p>
       {{ grant.title }}<br>
       {% assign applicants = grant.applicants %}
-      <span class="text-muted">{% for applicant in applicants %}{% if applicants.size >= 2 and applicant == applicants.last %}and {% endif %}{{ applicant }}{% if applicants.size >= 2 and applicant != applicants.last %},{% endif %} {% endfor %}</span></br>
+      <span class="text-muted">{% for applicant in applicants %}{% if applicants.size >= 2 and applicant == applicants.last %}and {% endif %}{{ applicant }}{% if applicants.size >= 2 and applicant != applicants.last %},{% endif %} {% endfor %}</span><br>
       <span class="text-muted">{{ grant.fund }}, {{ grant.role}}, {{ grant.amount }}</span>
     </p>
   </div>
