@@ -1,9 +1,7 @@
-name: Pretter
+name: Prettier
 
 on:
   pull_request:
-    branches:
-      - main
 
 env:
   FILE_PATTERN: "_includes/*.html"
@@ -13,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
       - uses: actions/setup-node@v1
         with:
           node-version: 12.x
@@ -23,3 +23,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v3.0.0
         with:
           commit_message: apply Prettier
+          ref: ${{ github.head_ref }}
