@@ -3,14 +3,15 @@
     <h2>{{ site.data.articles.heading }}</h2>
   </div>
 
-  {% assign list = site.data.articles.list | sort:"date" %}
-  {% for article in list reversed %}
+  {% assign list = site.data.articles.list | sort:"date" %} {% for article in
+  list reversed %}
   <div class="row{% if article != articles.first %} not-last{% endif %}">
     <div>
       <h4>{{ article.title }}</h4>
-      <span class="text-muted"><a href="{{ article.href }}"> URL ({{ article.published }})</a></span>
+      <span class="text-muted"
+        ><a href="{{ article.href }}"> URL ({{ article.published }})</a></span
+      >
     </div>
   </div>
   {% endfor %}
 </section>
-

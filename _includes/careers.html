@@ -3,14 +3,14 @@
     <h2>{{ site.data.careers.heading }}</h2>
   </div>
 
-  {% assign careers = site.data.careers.careers | sort:"started_at" %}
-  {% for career in careers reversed%}
+  {% assign careers = site.data.careers.careers | sort:"started_at" %} {% for
+  career in careers reversed%}
   <div class="col-md-3 text-md">
     {{ career.started_at : "%x" }} 〜 {{ career.ended_at : "%x" }}
   </div>
   <div class="col-md-9">
     <p>
-      {{ career.title }}<br>
+      {{ career.title }}<br />
       <span class="text-muted">{{ career.about }}</span>
     </p>
   </div>
