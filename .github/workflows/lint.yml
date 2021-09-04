@@ -1,23 +1,31 @@
-name: Prettier
+name: Lint
 
 on:
   pull_request:
 
 jobs:
-  lint:
+  run-linters:
+    name: Run linters
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
+      - name: Check out Git repository
+        uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
-      - uses: actions/setup-node@v1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
         with:
           node-version: 14.x
+
       - name: Run Prettier
         run: |
           npm install --save-dev --save-exact prettier
           npx prettier --write _includes/*.html
-      - uses: stefanzweifel/git-auto-commit-action@v3.0.0
+
+      - name: Commit changes to the repository
+        uses: stefanzweifel/git-auto-commit-action@v3.0.0
         with:
-          commit_message: apply Prettier
+          commit_message: apply Prettier changes
           ref: ${{ github.head_ref }}
