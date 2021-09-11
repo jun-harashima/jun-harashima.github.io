@@ -2,6 +2,15 @@
   "heading" : "発表",
 
   "presentations" : [
+    { "key"       : "jadi2021",
+      "date"      : "202108",
+      "data-id"   : "9c5cd69b05a34047a98e9cf83f4ef523",
+      "event" : {
+        "name" : "発表資料 at 第 21 回日本糖尿病インフォマティクス学会年次学術集会",
+        "href" : "https://site2.convention.co.jp/21jadi/",
+      }
+    },
+
     { "key"       : "wap-tech-talk",
       "date"      : "202102",
       "data-id"   : "b91ff927eef746f9a35e08c7639d6a7e",
