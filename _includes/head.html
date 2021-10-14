@@ -25,6 +25,16 @@
     href="{{ page.url | replace:'index.html', '' | prepend: site.baseurl | prepend: site.url }}"
   />
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-79DPSSQ7GY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-79DPSSQ7GY');
+  </script>
+
   <noscript
     ><style>
       .js-only {
