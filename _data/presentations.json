@@ -11,24 +11,6 @@
       }
     },
 
-    { "key"       : "jadi2021",
-      "date"      : "202108",
-      "data-id"   : "9c5cd69b05a34047a98e9cf83f4ef523",
-      "event" : {
-        "name" : "日本糖尿病インフォマティクス学会年次学術集会",
-        "href" : "https://site2.convention.co.jp/21jadi/",
-      }
-    },
-
-    { "key"       : "wap-tech-talk",
-      "date"      : "202102",
-      "data-id"   : "b91ff927eef746f9a35e08c7639d6a7e",
-      "event" : {
-        "name" : "WAP Tech Talk #2",
-        "href" : "https://worksapplications.connpass.com/event/200756/",
-      }
-    },
-
     { "key"       : "iaai-20",
       "date"      : "202002",
       "data-id"   : "a96ca88013624136a5b2a2122c938d18",
@@ -38,12 +20,12 @@
       }
     },
 
-    { "key"       : "uec-aix-seminar",
-      "date"      : "201809",
-      "data-id"   : "673b0f7a39aa44bbbbb8bd641766a4fa",
+    { "key"       : "mltbp",
+      "date"      : "201903",
+      "data-id"   : "4c40b3880b564d73867f1c7ae5a3f975",
       "event" : {
-        "name" : "電気通信大学 AIX セミナー",
-        "href" : "http://aix.uec.ac.jp/2018/09/13/5th-aix-seminar/",
+        "name" : "Machine Learning Team Building Pitch",
+        "href" : "https://connpass.com/event/121352/",
       }
     },
 
@@ -56,12 +38,12 @@
       }
     },
 
-    { "key"       : "yahoo-tech-seminar",
-      "date"      : "201807",
-      "data-id"   : "16169a11c5934ac39ed5f4b02170bed7",
+    { "key"       : "kantomt",
+      "date"      : "2017-07-14",
+      "data-id"   : "2c62d4e5b7084db594d48cb3c3c754e1",
       "event" : {
-        "name" : "Yahoo! Japan Tech Seminar",
-        "href" : "",
+        "name" : "第 1 回関東 MT 勉強会",
+        "href" : "https://sites.google.com/site/machinetranslationjp/kanto",
       }
     },
 
@@ -80,15 +62,6 @@
       "event" : {
         "name" : "Cookpad Tech Internship 2016",
         "href" : "https://recruit.cookpad.com/internship/summer2016-engineer/",
-      }
-    },
-
-    { "key"     : "webdbforum2015",
-      "date"    : "2015-11",
-      "data-id" : "9e81a50fe63244ed817533e43c204e56",
-      "event" : {
-        "name" : "WebDB Forum 2015",
-        "href" : "http://db-event.jpn.org/webdbf2015/",
       }
     }
   ]
