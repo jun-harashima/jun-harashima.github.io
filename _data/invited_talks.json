@@ -1,0 +1,79 @@
+{
+  "heading" : "講演",
+
+  "invited_talks" : [
+
+    { "key"       : "jadi2021",
+      "date"      : "2021-08-29",
+      "data-id"   : "9c5cd69b05a34047a98e9cf83f4ef523",
+      "event" : {
+        "name" : "第 21 回日本糖尿病インフォマティクス学会年次学術集会",
+        "href" : "https://site2.convention.co.jp/21jadi/",
+      }
+    },
+
+
+    { "key"       : "wap-tech-talk",
+      "date"      : "2021-02-02",
+      "data-id"   : "b91ff927eef746f9a35e08c7639d6a7e",
+      "event" : {
+        "name" : "WAP NLP Tech Talk #2",
+        "href" : "https://worksapplications.connpass.com/event/200756/",
+      }
+    },
+
+    { "key"       : "hcg2020",
+      "date"      : "2020-12-16",
+      "data-id"   : "1352d8dd8da44b96b81c927956464fc2",
+      "event" : {
+        "name" : "HCG シンポジウム 2020",
+        "href" : "https://www.hcg-ieice.org/hcg-symposium/2020/",
+      }
+    },
+
+    { "key"       : "repro-tech-meetup",
+      "date"      : "2018-11-06",
+      "data-id"   : "1b68852393ee4160a4579055da64c45b",
+      "event" : {
+        "name" : "Repro Tech Meetup #4 AI 実戦投入",
+        "href" : "https://repro-tech.connpass.com/event/104028/",
+      }
+    },
+
+    { "key"       : "uec-aix-seminar",
+      "date"      : "201809",
+      "data-id"   : "673b0f7a39aa44bbbbb8bd641766a4fa",
+      "event" : {
+        "name" : "人工知能先端研究センター第 5 回 AIX セミナー",
+        "href" : "http://aix.uec.ac.jp/2018/09/13/5th-aix-seminar/",
+      }
+    },
+
+    { "key"       : "yahoo-tech-seminar",
+      "date"      : "2018-07-30",
+      "data-id"   : "16169a11c5934ac39ed5f4b02170bed7",
+      "event" : {
+        "name" : "Yahoo! Japan Tech Seminar",
+        "href" : "",
+      }
+    },
+
+    { "key"       : "tgsw2017",
+      "date"      : "2017-09-27",
+      "data-id"   : "26f27666ea064059a77ab35cac5c7b24",
+      "event" : {
+        "name" : "Tsukuba Global Science Week 2017",
+        "href" : "https://sites.google.com/view/tgsw2017language",
+      }
+    },
+
+    { "key"     : "webdbforum2015",
+      "date"    : "2015-11",
+      "data-id" : "9e81a50fe63244ed817533e43c204e56",
+      "event" : {
+        "name" : "第 8 回 Web とデータベースに関するフォーラム",
+        "href" : "http://db-event.jpn.org/webdbf2015/",
+      }
+    }
+  ]
+}

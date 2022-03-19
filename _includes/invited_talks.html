@@ -1,0 +1,32 @@
+<section id="invited_talks" class="container">
+  <div class="row text-xs-center">
+    <h2>{{ site.data.invited_talks.heading }}</h2>
+  </div>
+
+  {% assign invited_talks = site.data.invited_talks.invited_talks | sort:"date"
+  %}
+  <div class="row">
+    {% for t in invited_talks reversed %}
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+      <script
+        async
+        class="speakerdeck-embed"
+        data-id="{{ t.data-id }}"
+        data-ratio="1.33333333333333"
+        src="//speakerdeck.com/assets/embed.js"
+      ></script>
+      <h5 style="height: 60px">
+        {% if t.event.href != '' %}<a href="{{ p.event.href }}"
+          >{{ t.event.name }}</a
+        >{% else %}{{ t.event.name }}{% endif %}
+      </h5>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="row text-xs-center">
+    <a href="https://speakerdeck.com/junharashima"
+      >その他の講演資料（Speaker Deck）</a
+    >
+  </div>
+</section>
