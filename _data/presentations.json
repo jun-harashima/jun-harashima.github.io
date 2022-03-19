@@ -2,11 +2,20 @@
   "heading" : "発表",
 
   "presentations" : [
+    { "key"       : "jed2022",
+      "date"      : "202203",
+      "data-id"   : "543be6491c18475e99fcf9cfb593a3c0",
+      "event" : {
+        "name" : "日本語における評価用データセットの構築と利用性の向上",
+        "href" : "https://jedworkshop.github.io/jed2022/",
+      }
+    },
+
     { "key"       : "jadi2021",
       "date"      : "202108",
       "data-id"   : "9c5cd69b05a34047a98e9cf83f4ef523",
       "event" : {
-        "name" : "招待講演 at 日本糖尿病インフォマティクス学会年次学術集会",
+        "name" : "日本糖尿病インフォマティクス学会年次学術集会",
         "href" : "https://site2.convention.co.jp/21jadi/",
       }
     },
@@ -15,7 +24,7 @@
       "date"      : "202102",
       "data-id"   : "b91ff927eef746f9a35e08c7639d6a7e",
       "event" : {
-        "name" : "発表資料 at WAP Tech Talk #2",
+        "name" : "WAP Tech Talk #2",
         "href" : "https://worksapplications.connpass.com/event/200756/",
       }
     },
@@ -24,7 +33,7 @@
       "date"      : "202002",
       "data-id"   : "a96ca88013624136a5b2a2122c938d18",
       "event" : {
-        "name" : "発表資料 at IAAI-20",
+        "name" : "The 32nd Annual Conference on Innovative Applications of Artificial Intelligence",
         "href" : "https://aaai.org/Conferences/AAAI-20/",
       }
     },
@@ -33,7 +42,7 @@
       "date"      : "201809",
       "data-id"   : "673b0f7a39aa44bbbbb8bd641766a4fa",
       "event" : {
-        "name" : "招待講演 at 電気通信大学 AIX セミナー",
+        "name" : "電気通信大学 AIX セミナー",
         "href" : "http://aix.uec.ac.jp/2018/09/13/5th-aix-seminar/",
       }
     },
@@ -42,7 +51,7 @@
       "date"      : "201808",
       "data-id"   : "83c96fd0e6704aef8d1b5ded51f8e7d1",
       "event" : {
-        "name" : "講義資料 at Cookpad Summer Internship 2018",
+        "name" : "Cookpad Summer Internship 2018",
         "href" : "https://internship.cookpad.com/2018/summer/",
       }
     },
@@ -51,7 +60,7 @@
       "date"      : "201807",
       "data-id"   : "16169a11c5934ac39ed5f4b02170bed7",
       "event" : {
-        "name" : "招待講演 at Yahoo! Japan Tech Seminar",
+        "name" : "Yahoo! Japan Tech Seminar",
         "href" : "",
       }
     },
@@ -60,7 +69,7 @@
       "date"      : "2017-02",
       "data-id"   : "dcee209771bf4598ac581c0002f5d299",
       "event" : {
-        "name" : "発表資料 at Cookpad Tech Kitchen #5",
+        "name" : "Cookpad Tech Kitchen #5",
         "href" : "https://cookpad.connpass.com/event/49324/",
       }
     },
@@ -69,7 +78,7 @@
       "date"      : "2016-08",
       "data-id"   : "94e0eb0545e34242a24d5d2e189bc319",
       "event" : {
-        "name" : "講義資料 at Cookpad Tech Internship 2016",
+        "name" : "Cookpad Tech Internship 2016",
         "href" : "https://recruit.cookpad.com/internship/summer2016-engineer/",
       }
     },
@@ -78,7 +87,7 @@
       "date"    : "2015-11",
       "data-id" : "9e81a50fe63244ed817533e43c204e56",
       "event" : {
-        "name" : "招待講演 at WebDB Forum 2015",
+        "name" : "WebDB Forum 2015",
         "href" : "http://db-event.jpn.org/webdbf2015/",
       }
     }
