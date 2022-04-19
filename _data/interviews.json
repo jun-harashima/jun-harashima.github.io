@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "GendaiBusiness2022",
+      "date"      : "2022-04-17",
+      "title"     : "クックパッドが研究をリードする、「料理とAI」のスゴい未来",
+      "published" : "現代ビジネス",
+      "href"      : "https://gendai.ismedia.jp/articles/-/94324",
+    },
+
     { "key"       : "JSAI2020",
       "date"      : "2020-09-01",
       "title"     : "レシピサービスと AI",
