@@ -3,8 +3,15 @@
 
   "list" : [
 
+    { "key"       : "Techlife2022",
+      "date"      : "2022-04-18",
+      "title"     : "fastText in Cookpad",
+      "published" : "クックパッド開発者ブログ",
+      "href"      : "https://techlife.cookpad.com/entry/2022/04/18/093000",
+    },
+
     { "key"       : "Techlife2021",
-      "date"      : "2020-03-08",
+      "date"      : "2021-03-08",
       "title"     : "形態素解析を行うだけのバッチをつくる",
       "published" : "クックパッド開発者ブログ",
       "href"      : "https://techlife.cookpad.com/entry/2021/03/08/093000",
