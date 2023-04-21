@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "Techlife2023",
+      "date"      : "2022-04-21",
+      "title"     : "NLP2023 に参加しました：座長編",
+      "published" : "クックパッド開発者ブログ",
+      "href"      : "https://techlife.cookpad.com/entry/2023/04/21/090004",
+    },
+
     { "key"       : "Techlife2022",
       "date"      : "2022-04-18",
       "title"     : "fastText in Cookpad",
