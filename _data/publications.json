@@ -3,6 +3,13 @@
 
   "list" : [
 
+    { "key"       : "Maeda2024",
+      "date"      : "2024-10-01",
+      "title"     : "COM Kitchens: An Unedited Overhead-view Video Dataset as a Vision-Language Benchmark",
+      "authors"   : [ "Koki Maeda", "Tosho Hirasawa", "Atsushi Hashimoto", "Jun Harashima", "Leszek Rybicki", "Fukasawa Yusuke", "Yoshitaka Ushiku" ],
+      "published" : "Proceedings of the 18th European Conference on Computer Vision (ECCV 2024)",
+    },
+
     { "key"       : "Harashima2020b",
       "date"      : "2020-12-12",
       "bibtex"    : "harashima2020b.bib",
