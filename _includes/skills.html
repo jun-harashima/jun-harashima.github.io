@@ -1,0 +1,16 @@
+<section id="skills" class="container">
+  <div class="row text-xs-center">
+    <h2>{{ site.data.skills.heading }}</h2>
+  </div>
+
+  {% assign list = site.data.skills.list %} {% for skill in list %}
+  <div class="row">
+    <div class="col-md-3 text-xs-right">
+      <span class="h5">{{ skill.title }}</span>
+    </div>
+    <div class="col-md-9">
+      <span class="h5">{{ skill.text }}</span>
+    </div>
+  </div>
+  {% endfor %}
+</section>

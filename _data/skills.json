@@ -1,0 +1,30 @@
+{
+  "heading" : "経験",
+
+  "list" : [
+
+    { "title" : "言語",
+      "text"  : "Python / Ruby / Perl / JavaScript / C++ / C",
+    },
+
+    { "title" : "機械学習",
+      "text"  : "Transformers / Keras / PyTorch / scikit-learn / MLflow / Label Studio / CVAT",
+    },
+
+    { "title" : "ウェブ",
+      "text"  : "FastAPI / Ruby on Rails / Solr / Nginx",
+    },
+
+    { "title" : "インフラ",
+      "text"  : "AWS / Kubernetes / Docker / Grafana / Prometheus",
+    },
+
+    { "title" : "データ",
+      "text"  : "SQL / dbt / Airflow / Snowflake / Redshift / Treasure Data",
+    },
+
+    { "title" : "CI / CD",
+      "text"  : "GitHub Actions / Jenkins / Travis CI / Screwdriver.cd",
+    }
+  ]
+}
