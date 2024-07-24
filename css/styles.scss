@@ -38,12 +38,11 @@ $link-hover-decoration: none;
 ;
 
 p.header {
-  margin-right: -0.5rem;
-  margin-bottom: 0.5rem;
+  margin-right: -0.2rem;
 }
 
 h2 {
-  padding-top: 2rem;
+  margin-bottom: 0px;
 }
 
 .navbar {
@@ -87,6 +86,16 @@ h2 {
 
 .col-md-2, .col-md-3, .col-md-9, .col-md-10 {
   padding-left:  0px;
+  padding-right: 0px;
+}
+
+#header img {
+  margin-bottom: 16px;
+}
+
+#invited_talks > .row {
+  padding: 0rem 0rem;
+  margin-bottom: 2rem;
 }
 
 #presentations > .row {
