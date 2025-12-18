@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-  new Clipboard('.btn-clipboard');
+  new ClipboardJS('.btn-clipboard');
 
   var scroll = getURLParameter("scroll");
   if(scroll)
